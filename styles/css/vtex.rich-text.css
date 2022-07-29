@@ -3,19 +3,20 @@
   text-align: center;
   justify-content: center;
 }
-
+/*Summuer  */
 .container--shelfTitle {
-  color: #727273;
+  color: #0e0f0f;
   justify-content: center;
   text-align: center;
 }
 
 .headingLevel2--shelfTitle {
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .container--deals .paragraph {
   margin: 0;
+  font-weight: bold;
 }
 
 .container--link {
@@ -25,13 +26,13 @@
 .container--question {
   justify-content: center;
 }
-
+/*Texto do inscreva-se */
 .container--question .paragraph {
   text-align: center;
   max-width: 540px;
   margin: 0 16px;
   padding-top: 120px;
-  color: #03034E;
+  color: #444443;
 }
 
 .container--question .strong {
@@ -45,7 +46,7 @@
   max-width: 540px;
   padding-top: 36px;
   padding-bottom: 84px;
-  color: #03034E;
+  color: #444443;
 }
 
 .container--link .strong {
@@ -53,16 +54,16 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-
+/* LINK DO inscreva-se*/
 .container--link .link {
   text-decoration: none;
   font-size: 36px;
   font-weight: 300;
-  color: #03034E;
+  color: #E40DCF;
 }
 
 .container--title {
-  color: #03034E;
+  color: #444443;
   font-size: 28px;
   font-weight: 700;
 }
@@ -78,7 +79,7 @@
   }
 
   .container--title {
-    color: #03034E;
+    color: #444443;
     font-size: 40px;
     font-weight: 700;
     max-width: 60%;

@@ -1,20 +1,20 @@
 .notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
+  background-color: #FFFFFF;
+  color: #444443;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
 }
-
+/* Card com imagem ao lado*/
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #e6f1e6;
+  background-color: #E591DC;
   padding: 0px;
 }
-
+/*Componente de inscreva-se  */
 .newsletter {
-  background-color: #03054e;
+  background-color: #EDD1DD;
   max-width: 1528px;
   margin: 0 auto;
 }

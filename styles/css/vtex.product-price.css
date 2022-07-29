@@ -31,7 +31,7 @@
 }
 
 .savings--summary {
-  background: #8BC34A;
+  background: #B976B3;
   border-radius: 1000px;
   align-items: center;
   display: flex;
@@ -64,7 +64,7 @@
 }
 
 .savings--summaryPercentage {
-  background: #0f3e99;
+  background: #E40DCF;
   border-radius: 1000px;
   align-items: center;
   display: flex;

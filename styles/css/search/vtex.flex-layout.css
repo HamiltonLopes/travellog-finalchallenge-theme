@@ -11,14 +11,14 @@
 }
 
 .flexRow--buyNowButton :global(.vtex-button) {
-  background: #eef3f7;
-  border-color:#eef3f7;
-  color: #0f3e99;
+  background: #f7eef3;
+  border-color:#f7eef6;
+  color: #E40DCF;
 }
 
 .flexRow--buyNowButton:hover :global(.vtex-button) {
-  background: #dbe9fd;
-  border-color:#dbe9fd;
+  background: #fddbdb;
+  border-color:#fddbdb;
 }
 
 .flexCol--productRating {
