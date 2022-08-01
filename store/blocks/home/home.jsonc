@@ -22,12 +22,12 @@
       "preload": true,
       "images": [
         {
-          "image": "https://images.pexels.com/photos/9558896/pexels-photo-9558896.jpeg?auto=compress&cs=tinysrgb&w=600.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "https://images.pexels.com/photos/2986445/pexels-photo-2986445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg",
+          "mobileImage": "https://images.pexels.com/photos/9775856/pexels-photo-9775856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "https://cdn.pixabay.com/photo/2017/08/05/00/12/girl-2581913_960_720.jpg",
+          "mobileImage": "https://images.pexels.com/photos/2036646/pexels-photo-2036646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
       ]
     }

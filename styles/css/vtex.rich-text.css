@@ -26,7 +26,7 @@
 .container--question {
   justify-content: center;
 }
-/*Texto do inscreva-se */
+/*Texto do reach us at*/
 .container--question .paragraph {
   text-align: center;
   max-width: 540px;
@@ -46,7 +46,7 @@
   max-width: 540px;
   padding-top: 36px;
   padding-bottom: 84px;
-  color: #444443;
+  color: #434344;
 }
 
 .container--link .strong {
