@@ -1,0 +1,52 @@
+.buyTogetherContainer {
+    margin-bottom: 50px;
+}
+
+.productName {
+    font-size: large;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.productPrice {
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.productInfo {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.productButtonAvailable {
+    margin: 10px !important;
+}
+
+.productButtonUnavailable {
+    background-color: red;
+    color: aliceblue;
+    margin: 10px !important;
+}
+
+.productImage {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.productImageContainer {
+    min-height: 300px;
+}
+
+.totalMessage {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.totalValue {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 40px;
+}

@@ -3,6 +3,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
+      "compre-junto-component",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
