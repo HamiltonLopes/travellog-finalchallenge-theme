@@ -9,3 +9,11 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.socialNetworkImage{
+  filter: brightness(30%);
+}
+
+.paymentMethodIconImage{
+  filter: brightness(30%);
+}
