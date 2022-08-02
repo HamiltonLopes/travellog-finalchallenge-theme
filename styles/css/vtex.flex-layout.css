@@ -4,6 +4,7 @@
 }
 
 @media screen and (min-width: 40em) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -11,16 +12,19 @@
 }
 
 @media screen and (min-width: 80rem) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
   }
 }
+
 /*Componente superior da home - Shop / About us */
 .flexRowContent--menu-link {
   background-color: #B976B3;
   color: #fff;
 }
+
 /*Componente  nav = logo - nav  */
 .flexRowContent--main-header {
   background-color: #EDD1DD;
@@ -45,8 +49,11 @@
 
 /* Componente Free shipping/ OneDayDelivery/ PickUpinStore/ Exclusive delas */
 .flexRow--deals {
-  background-color: #E40DCF;
-  padding: 14px 0px;
+  padding: 24px 32px;
+  gap: 32px;
+  background-color: #BABABA;
+  height: 152px;
+  justify-content: space-around;
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -97,4 +104,16 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRow--menu-row {
+  background-color: #B976B3;
+}
+
+.flexRow--payment-methods {
+  background-color: #B976B3;
+}
+
+.flexRow--credits {
+  background-color: #E591DC;
 }

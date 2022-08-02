@@ -27,12 +27,7 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
-    },
-    "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
-    ]
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -56,7 +51,6 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
@@ -84,6 +78,8 @@
       "width": "140",
       "height": "60"
     }
+  },
+  "login": {
   },
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]

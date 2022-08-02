@@ -2,15 +2,10 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
       "newsletter"
     ]
   },
@@ -47,12 +42,15 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Best Offers",
       "blockClass": "shelfTitle"
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#demo1"],
+    "props": {
+      "fullWidth": true
+    }
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
@@ -99,6 +97,12 @@
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "label":"Get news and special offers",
+      "blockClass": "newsletter"
     }
   }
 }
