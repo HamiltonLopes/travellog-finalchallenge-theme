@@ -80,6 +80,9 @@
     }
   },
   "login": {
+    "props": {
+      "iconLabel": "Hello! Sign in"
+    }
   },
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
