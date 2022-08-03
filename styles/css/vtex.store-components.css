@@ -104,7 +104,11 @@ text-align: left;
   filter: brightness(0%);
 }
 
-
+.productDescriptionTitle{
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-left: 16px;
+}
 
 
 @media only screen and (min-width: 640px) {

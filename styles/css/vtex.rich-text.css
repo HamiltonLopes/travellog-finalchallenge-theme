@@ -11,6 +11,13 @@
   margin-left: 32px;
 }
 
+.container--shelfRelatedTitle{
+  color: #0e0f0f;
+  justify-content: flex-start;
+  text-align: center;
+  margin-left: 32px;
+}
+
 .headingLevel2--shelfTitle {
   font-weight: 600;
 }
@@ -90,6 +97,11 @@
   color: #444443;
   font-size: 28px;
   font-weight: 700;
+}
+
+.wrapper--specifications .heading{
+  color: #0E0F0F;
+  margin-left: 16px;
 }
 
 @media only screen and (min-width: 640px) {

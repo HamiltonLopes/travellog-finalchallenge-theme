@@ -42,7 +42,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Best Offers",
+      "text": "## Ofertas",
       "blockClass": "shelfTitle"
     }
   },
@@ -86,22 +86,9 @@
     }
   },
 
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    }
-  },
   "newsletter": {
     "props": {
-      "label":"Get news and special offers",
+      "label":"Receba notícias e ofertas especiais",
       "blockClass": "newsletter"
     }
   }

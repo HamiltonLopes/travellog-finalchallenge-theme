@@ -14,16 +14,7 @@
   },
   "flex-layout.col#spec-group": {
     "children": [
-      "flex-layout.row#spec-group-name",
       "product-specification"
-    ]
-  },
-  "flex-layout.row#spec-group-name": {
-    "props": {
-      "blockClass": "productSpecificationGroupName"
-    },
-    "children": [
-      "product-specification-text#group"
     ]
   },
   "product-specification": {
