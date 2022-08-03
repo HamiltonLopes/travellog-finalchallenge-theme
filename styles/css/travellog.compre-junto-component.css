@@ -2,6 +2,15 @@
     margin-bottom: 50px;
 }
 
+.buyTogetherTitleContainer {
+    text-align: left !important;
+}
+
+.buyTogetherTitle {
+    text-align: left !important;
+    margin-left: 16px;
+}
+
 .buyTogetherProductContainer{
     display: flex;
     justify-content: center;
