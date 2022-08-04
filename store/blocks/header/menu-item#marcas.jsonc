@@ -1,0 +1,316 @@
+{
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "MARCAS",
+        "text": "MARCAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#marcas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#marcas": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-marcas"
+    ]
+  },
+  "flex-layout.row#menu-marcas": {
+    "children": [
+      "flex-layout.col#menu-marcas-1",
+      "flex-layout.col#menu-marcas-1-1",
+      "flex-layout.col#menu-marcas-image1",
+      "flex-layout.col#menu-marcas-image2",
+      "flex-layout.col#menu-marcas-image3"
+    ],
+    "props":{
+      "colGap": "4",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#menu-marcas-1": {
+    "children": [
+      "vtex.menu@2.x:menu#marcas1"
+    ]
+  },
+  "flex-layout.col#menu-marcas-1-1": {
+    "children": [
+      "vtex.menu@2.x:menu#marcas2"
+    ]
+  },
+  "flex-layout.col#menu-marcas-image1": {
+    "children": [
+      "image#marca-1"
+    ]
+  },
+  "flex-layout.col#menu-marcas-image2": {
+    "children": [
+      "image#marca-2"
+    ]
+  },
+  "flex-layout.col#menu-marcas-image3": {
+    "children": [
+      "image#marca-3"
+    ]
+  },
+  "vtex.menu@2.x:menu#marcas1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#adidas",
+      "menu-item#calvin-klein-jeans",
+      "menu-item#colcci",
+      "menu-item#crossgear",
+      "menu-item#forever-21",
+      "menu-item#guess"
+    ]
+  },
+  "vtex.menu@2.x:menu#marcas2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#highstil",
+      "menu-item#kolosh",
+      "menu-item#le-lis-blanc-deux",
+      "menu-item#nike",
+      "menu-item#reserva",
+      "menu-item#vizzano"
+    ]
+  },
+  "menu-item#adidas": {
+    "props": {
+      "id": "menu-item-adidas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/adidas",
+        "noFollow": true,
+        "tagTitle": "adidas",
+        "text": "adidas"
+      }
+    }
+  },
+  "menu-item#calvin-klein-jeans": {
+    "props": {
+      "id": "menu-item-calvin-klein-jeans",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calvin-klein-jeans",
+        "noFollow": true,
+        "tagTitle": "Calvin Klein Jeans",
+        "text": "Calvin Klein Jeans"
+      }
+    }
+  },
+  "menu-item#colcci": {
+    "props": {
+      "id": "menu-item-colcci",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colcci",
+        "noFollow": true,
+        "tagTitle": "Colcci",
+        "text": "Colcci"
+      }
+    }
+  },
+  "menu-item#crossgear": {
+    "props": {
+      "id": "menu-item-crossgear",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/crossgear",
+        "noFollow": true,
+        "tagTitle": "Crossgear",
+        "text": "Crossgear"
+      }
+    }
+  },
+  "menu-item#forever-21": {
+    "props": {
+      "id": "menu-item-forever-21",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forever-21",
+        "noFollow": true,
+        "tagTitle": "Forever 21",
+        "text": "Forever 21"
+      }
+    }
+  },
+  "menu-item#guess": {
+    "props": {
+      "id": "menu-item-guess",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guess",
+        "noFollow": true,
+        "tagTitle": "Guess",
+        "text": "Guess"
+      }
+    }
+  },
+  "menu-item#highstil": {
+    "props": {
+      "id": "menu-item-highstil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/highstil",
+        "noFollow": true,
+        "tagTitle": "Highstil",
+        "text": "Highstil"
+      }
+    }
+  },
+  "menu-item#kolosh": {
+    "props": {
+      "id": "menu-item-kolosh",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kolosh",
+        "noFollow": true,
+        "tagTitle": "Kolosh",
+        "text": "Kolosh"
+      }
+    }
+  },
+  "menu-item#le-lis-blanc-deux": {
+    "props": {
+      "id": "menu-item-le-lis-blanc-deux",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/le-lis-blanc-deux",
+        "noFollow": true,
+        "tagTitle": "Le Lis Blanc Deux",
+        "text": "Le Lis Blanc Deux"
+      }
+    }
+  },
+  "menu-item#reserva": {
+    "props": {
+      "id": "menu-item-reserva",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/reserva",
+        "noFollow": true,
+        "tagTitle": "Reserva",
+        "text": "Reserva"
+      }
+    }
+  },
+  "menu-item#vizzano": {
+    "props": {
+      "id": "menu-item-vizzano",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vizzano",
+        "noFollow": true,
+        "tagTitle": "Vizzano",
+        "text": "Vizzano"
+      }
+    }
+  },
+  "menu-item#nike": {
+    "props": {
+      "id": "menu-item-nike",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nike",
+        "noFollow": true,
+        "tagTitle": "Nike",
+        "text": "Nike"
+      }
+    }
+  },
+  "image#marca-1": {
+    "props": {
+      "src": "https://i.im.ge/2022/08/03/FC35pF.3.jpg",
+      "maxHeight": "200",
+      "link": {
+        "url": "/colcci"
+      }
+    }
+  },
+  "image#marca-2": {
+    "props": {
+      "src": "https://i.im.ge/2022/08/03/FC30A6.1.jpg",
+      "maxHeight": "200",
+      "link": {
+        "url": "/nike"
+      }
+    }
+  },
+  "image#marca-3": {
+    "props": {
+      "src": "https://i.im.ge/2022/08/03/FC3j1K.2.jpg",
+      "link": {
+        "url": "/forever-21"
+      }
+
+    }
+  },
+
+
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}

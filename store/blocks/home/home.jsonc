@@ -4,13 +4,15 @@
       "list-context.image-list#demo",
       "flex-layout.row#deals",
       "__fold__",
+      "rich-text#top-brands",
+      "slider-layout#top-brands",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "home-component",
       "newsletter"
     ]
   },
-  
+
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
@@ -18,12 +20,12 @@
       "preload": true,
       "images": [
         {
-          "image": "https://images.pexels.com/photos/2986445/pexels-photo-2986445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg",
-          "mobileImage": "https://images.pexels.com/photos/9775856/pexels-photo-9775856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg"
+          "image": "https://images2.imgbox.com/54/49/xR9MSFVX_o.jpg",
+          "mobileImage": "https://images2.imgbox.com/e7/e0/LYYjkAUg_o.png"
         },
         {
-          "image": "https://cdn.pixabay.com/photo/2017/08/05/00/12/girl-2581913_960_720.jpg",
-          "mobileImage": "https://images.pexels.com/photos/2036646/pexels-photo-2036646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          "image": "https://images2.imgbox.com/32/91/L3OsLBiW_o.jpg",
+          "mobileImage": "https://images2.imgbox.com/02/80/aHKXfGa0_o.png"
         }
       ]
     }
@@ -38,6 +40,13 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#top-brands": {
+    "props": {
+      "text": "## Marcas em Destaque",
+      "blockClass": "shelfTitle"
     }
   },
 
