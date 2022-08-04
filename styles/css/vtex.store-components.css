@@ -157,3 +157,13 @@ text-align: left;
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+
+.productBrand{
+  color: #0E0F0F;
+}
+
+.productDescriptionContainer .content{ 
+  color: #0E0F0F;
+  font-size: 18px;
+  margin: 16px;
+}

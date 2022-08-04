@@ -7,23 +7,19 @@
 }
 
 .buyTogetherTitle {
+    color: #0e0f0f;
+    font-size: 2rem !important;
+    font-weight: 700;
     text-align: left !important;
-    margin-left: 16px;
+    margin-left: 32px;
 }
 
-.buyTogetherProductContainer{
+.buyTogetherProductContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
-/* 
-.buyTogetherProductContainer :global(.vtex-button){
-    background-color: #E40DCF;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 5px;
-} */
 
 .productName {
     font-size: large;
@@ -76,4 +72,4 @@
 
 .productButtonContainer :global(.vtex-button) {
     margin-right: 5px;
-  }
+}

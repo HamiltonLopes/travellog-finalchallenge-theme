@@ -18,8 +18,16 @@
   margin-left: 32px;
 }
 
+.paragraph--shelfRelatedTitle {
+  color: #0e0f0f;
+  font-size: 1.75rem !important;
+  font-weight: 700 !important;
+}
+
 .headingLevel2--shelfTitle {
-  font-weight: 600;
+  color: #0e0f0f;
+  font-size: 2rem !important;
+  font-weight: 700;
 }
 
 .container--deals .paragraph {
