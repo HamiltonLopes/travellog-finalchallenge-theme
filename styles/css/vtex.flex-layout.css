@@ -121,3 +121,7 @@
 /* .flexRow--productSpecification{
   background-color: #F3F9FF;
 } */
+
+.flexRow--productSpecificationGroupName{
+  background-color: #ffffff !important;
+}

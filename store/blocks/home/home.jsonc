@@ -6,10 +6,11 @@
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
+      "home-component",
       "newsletter"
     ]
   },
-
+  
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {

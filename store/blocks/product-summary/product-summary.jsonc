@@ -7,9 +7,7 @@
       "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
-      "add-to-cart-button"
-    ]
+      "product-installments#summary"    ]
   },
   "flex-layout.col#productRating": {
     "props": {

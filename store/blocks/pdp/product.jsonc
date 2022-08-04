@@ -26,7 +26,6 @@
       "flex-layout.row#poduct-page-image",
       "compre-junto-component",
       "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
       "product-specification-group#table",
       "product-reviews",
       "product-questions-and-answers"
@@ -230,7 +229,7 @@
 
   "rich-text#shelfRelated-title": {
     "props": {
-      "text": "## Clientes também viram",
+      "text": "Clientes também viram",
       "blockClass": "shelfRelatedTitle"
     }
   },
@@ -249,18 +248,7 @@
         "summary": {}
       }
     }
-  },
-
-
-  "flex-layout.row#specifications-title": {
-    "children": [
-      "rich-text#specifications"
-    ]
-  },
-  "rich-text#specifications": {
-    "props": {
-      "text": "### Especificações",
-      "blockClass": "specifications"
-    }
   }
+
+
 }
