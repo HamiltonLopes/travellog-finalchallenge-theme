@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -111,8 +111,9 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#categoria-feminino",
+      "menu-item#categoria-masculino",
+      "menu-item#marcas",
       "menu-item#more"
     ],
     "props": {

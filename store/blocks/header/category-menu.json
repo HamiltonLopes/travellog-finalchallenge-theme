@@ -4,107 +4,174 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#categoria-feminino",
+      "menu-item#categoria-masculino",
+      "menu-item#marcas"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#categoria-feminino": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-categoria-feminino",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/vestuario/feminino/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "FEMININO",
+        "text": "FEMININO"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#categoria-feminino"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#categoria-feminino": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#categoria-feminino"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#categoria-feminino": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#categoria-feminino-roupas",
+      "menu-item#categoria-feminino-calcados",
+      "menu-item#categoria-feminino-acessorios"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#categoria-feminino-roupas": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-categoria-feminino-roupas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/vestuario/feminino/roupas/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Roupas",
+        "text": "Roupas"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#categoria-feminino-calcados": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-categoria-feminino-calcados",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/vestuario/feminino/calcados/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Calçados",
+        "text": "Calçados"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#categoria-feminino-acessorios": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-categoria-feminino-acessorios",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/vestuario/feminino/acessorios/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#categoria-masculino": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-categoria-masculino",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/vestuario/masculino/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "MASCULINO",
+        "text": "MASCULINO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#categoria-masculino"
+    ]
+  },
+  "vtex.menu@2.x:submenu#categoria-masculino": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#categoria-masculino"
+    ]
+  },
+  "vtex.menu@2.x:menu#categoria-masculino": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#categoria-masculino-roupas",
+      "menu-item#categoria-masculino-calcados",
+      "menu-item#categoria-masculino-acessorios"
+    ]
+  },
+  "menu-item#categoria-masculino-roupas": {
+    "props": {
+      "id": "menu-item-categoria-masculino-roupas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/masculino/roupas/",
+        "noFollow": false,
+        "tagTitle": "Roupas",
+        "text": "Roupas"
       }
     }
   },
+  "menu-item#categoria-masculino-calcados": {
+    "props": {
+      "id": "menu-item-categoria-masculino-calcados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/masculino/calcados/",
+        "noFollow": false,
+        "tagTitle": "Calçados",
+        "text": "Calçados"
+      }
+    }
+  },
+  "menu-item#categoria-masculino-acessorios": {
+    "props": {
+      "id": "menu-item-categoria-masculino-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/masculino/acessorios/",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -185,20 +252,6 @@
         "text": "FAQ"
       }
     }
-  },
-  "menu-item#contact-us": {
-    "props": {
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
-      }
-    }
   }
+
 }

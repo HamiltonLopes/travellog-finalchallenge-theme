@@ -1,0 +1,80 @@
+{
+  "slider-layout#top-brands": {
+    "children": [
+      "image#nike",
+      "image#reserva",
+      "image#adidas",
+      "image#colcci",
+      "image#calvin-klein",
+      "image#forever-21"
+    ], "props": {
+      "autoplay": {
+        "timeout": 0,
+        "stopOnHover": true
+      },
+      "slideTransition": {
+        "speed": 30000,
+        "delay": 0,
+        "timing": "linear"
+      },
+      "showPaginationDots": "never",
+      "infinite": true,
+      "showNavigationArrows": "never"
+    }
+  },
+  "image#nike": {
+    "props": {
+      "src": "https://images2.imgbox.com/11/47/uY7fY1mU_o.png",
+      "maxWidth": 150,
+      "link": {
+        "url": "/nike"
+      }
+    }
+  },
+  "image#adidas": {
+    "props": {
+      "src": "https://images2.imgbox.com/54/85/t8ZA1Ogr_o.png",
+      "maxWidth": 130,
+      "link": {
+        "url": "/adidas"
+      }
+    }
+  },
+  "image#reserva": {
+    "props": {
+      "src": "https://images2.imgbox.com/7a/5b/fUQXSUgP_o.png",
+      "maxWidth": 150,
+      "link": {
+        "url": "/reserva"
+      }
+    }
+  },
+  "image#colcci": {
+    "props": {
+      "src": "https://images2.imgbox.com/12/c6/QFCUX3sq_o.png",
+      "maxWidth": 150,
+      "link": {
+        "url": "/colcci"
+      }
+    }
+  },
+  "image#calvin-klein": {
+    "props": {
+      "src": "https://images2.imgbox.com/cc/2a/jqgv80VU_o.png",
+      "maxWidth": 200,
+      "link": {
+        "url": "/calvin-klein-jeans"
+      }
+    }
+  },
+  "image#forever-21": {
+    "props": {
+      "src": "https://images2.imgbox.com/30/52/5FwmeYZ4_o.png",
+      "maxWidth": 150,
+      "link": {
+        "url": "/forever-21"
+      }
+    }
+  }
+
+}
