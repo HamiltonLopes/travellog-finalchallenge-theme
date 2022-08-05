@@ -24,7 +24,7 @@
   "flex-layout.col#poduct-page-left": {
     "children": [
       "flex-layout.row#poduct-page-image",
-      "compre-junto-component",
+      "flex-layout.row#compre-junto-component",
       "flex-layout.row#description",
       "product-specification-group#table",
       "product-reviews",
@@ -80,6 +80,13 @@
     ]
   },
 
+  "flex-layout.row#compre-junto-component":{
+    "children":["compre-junto-component"],
+    "props":{
+      "fullWidth": true
+    }
+  },
+
 
   "flex-layout.row#description": {
     "props": {
@@ -87,6 +94,7 @@
     },
     "children": [
       "product-description"
+
     ]
   },
   "product-description": {
@@ -136,7 +144,9 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "zoomMode": "in-place-hover",
+      "zoomFactor": 2.5
     }
   },
 

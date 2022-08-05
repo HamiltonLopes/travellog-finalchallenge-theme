@@ -5,9 +5,7 @@
     },
     "children": [
       "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#sale"
     ]
   },
   "menu-item#news": {
@@ -21,22 +19,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "News",
-        "text": "News"
-      }
-    }
-  },
-  "menu-item#blackfriday": {
-    "props": {
-      "id": "menu-item-black-friday",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "text": "Novidades"
       }
     }
   },
@@ -51,342 +34,189 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Sale",
-        "text": "Sale"
+        "text": "Promoção"
       }
     }
   },
-  "menu-item#personalization": {
+
+  "vtex.menu@2.x:menu#footer-masculino": {
     "props": {
-      "id": "menu-item-personalization",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#masculino",
+      "menu-item#m-roupas",
+      "menu-item#m-calcados",
+      "menu-item#m-acessorios"
+    ]
+  },
+
+  "menu-item#masculino": {
+    "props": {
+      "id": "menu-item-masculino",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/vestuario/masculino",
+        "noFollow": true,
+        "tagTitle": "masculino",
+        "text": "Masculino"
+      },
+      "blockClass":"masculino"
+    }
+  },
+
+  "menu-item#m-roupas": {
+    "props": {
+      "id": "menu-item-masculino-roupas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/masculino/roupas",
+        "noFollow": true,
+        "tagTitle": "roupas",
+        "text": "Roupas"
+      }
+    }
+  },
+
+  "menu-item#m-calcados": {
+    "props": {
+      "id": "menu-item-masculino-calcados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/masculino/calcados",
+        "noFollow": true,
+        "tagTitle": "calcados",
+        "text": "Calçados"
+      }
+    }
+  },
+
+  "menu-item#m-acessorios": {
+    "props": {
+      "id": "menu-item-masculino-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/masculino/acessorios",
+        "noFollow": true,
+        "tagTitle": "acessorios",
+        "text": "Acessórios"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-marcas1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#adidas",
+      "menu-item#calvin-klein-jeans",
+      "menu-item#colcci",
+      "menu-item#crossgear",
+      "menu-item#forever-21",
+      "menu-item#guess"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-marcas2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#highstil",
+      "menu-item#kolosh",
+      "menu-item#le-lis-blanc-deux",
+      "menu-item#nike",
+      "menu-item#reserva",
+      "menu-item#vizzano"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-feminino": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#feminino",
+      "menu-item#f-roupas",
+      "menu-item#f-calcados",
+      "menu-item#f-acessorios"
+    ]
+  },
+
+  "menu-item#feminino": {
+    "props": {
+      "id": "menu-item-category-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/feminino",
+        "noFollow": true,
+        "tagTitle": "feminino",
+        "text": "Feminino"
+      },
+      "blockClass":"feminino"
+    }
+  },
+
+  "menu-item#f-roupas": {
+    "props": {
+      "id": "menu-item-f-roupas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/feminino/roupas",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "f-roupas",
+        "text": "Roupas"
       }
     }
   },
 
-  "vtex.menu@2.x:menu#footer-decoration": {
+  "menu-item#f-calcados": {
     "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#smartphones": {
-    "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-item-f-calcados",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
-        "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
-      }
-    }
-  },
-
-  "menu-item#videogames": {
-    "props": {
-      "id": "menu-item-videogames",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/videogames",
-        "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
-      }
-    }
-  },
-
-  "menu-item#tvs": {
-    "props": {
-      "id": "menu-item-tvs",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
-      }
-    }
-  },
-
-  "vtex.menu@2.x:menu#footer-bags": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
-    ]
-  },
-
-  "menu-item#bags": {
-    "props": {
-      "id": "menu-item-bags",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/d",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
-      }
-    }
-  },
-
-  "menu-item#backpacks": {
-    "props": {
-      "id": "menu-item-backpacks",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/backpacks",
-        "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
-      }
-    }
-  },
-
-  "menu-item#necessaire": {
-    "props": {
-      "id": "menu-item-necessaire",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
-      }
-    }
-  },
-
-  "vtex.menu@2.x:menu#footer-clothing": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
-    ]
-  },
-
-  "vtex.menu@2.x:menu#footer-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
-    ]
-  },
-
-  "menu-item#clothing-mobile": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
-  },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
-  },
-
-  "vtex.menu@2.x:menu#clothing-accordion": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
-    ]
-  },
-
-  "menu-item#decoration-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-  },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#clothing": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-
-  "menu-item#shorts": {
-    "props": {
-      "id": "menu-item-shorts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/vestuario/feminino/calcados",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "calcados",
+        "text": "Calçados"
       }
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#f-acessorios": {
     "props": {
-      "id": "menu-item-tank-tops",
+      "id": "menu-item-f-acessorios",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/vestuario/feminino/acessorios",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
-      }
-    }
-  },
-
-  "menu-item#shirts": {
-    "props": {
-      "id": "menu-item-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shirts",
-        "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
-      }
-    }
-  },
-
-  "menu-item#sweatshirt": {
-    "props": {
-      "id": "menu-item-sweat-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/sweatshirt",
-        "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
-      }
-    }
-  },
-
-  "menu-item#cropped": {
-    "props": {
-      "id": "menu-item-cropped",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/cropped",
-        "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
+        "tagTitle": "f-acessorios",
+        "text": "Acessórios"
       }
     }
   }

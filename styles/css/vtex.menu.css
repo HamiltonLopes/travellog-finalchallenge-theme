@@ -1,3 +1,16 @@
 .styledLinkContent {
   color: #0E0F0F;
 }
+
+.styledLinkContent--feminino {
+  font-weight: bold;
+}
+
+.styledLinkContent--masculino {
+  font-weight: bold;
+}
+@media only screen and (max-width: 1024px){
+.submenuContainer{
+  min-height: 95px;
+}
+}

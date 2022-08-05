@@ -28,13 +28,13 @@
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "Frete grátis",
       "blockClass": "deals"
     }
   },
   "rich-text#dealsub1": {
     "props": {
-      "text": "Subtitle for the deal",
+      "text": "Em compras acima de R$200,00",
       "blockClass": "dealsub"
     }
   },
@@ -54,13 +54,13 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "Entrega no mesmo dia",
       "blockClass": "deals"
     }
   },
   "rich-text#dealsub2": {
     "props": {
-      "text": "Subtitle for the deal",
+      "text": "Em todo território brasileiro",
       "blockClass": "dealsub"
     }
   },
@@ -80,13 +80,13 @@
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "Retire na loja",
       "blockClass": "deals"
     }
   },
   "rich-text#dealsub3": {
     "props": {
-      "text": "Subtitle for the deal",
+      "text": "Escolha o local mais próximo",
       "blockClass": "dealsub"
     }
   },
@@ -106,13 +106,13 @@
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "Promoções exclusivas",
       "blockClass": "deals"
     }
   },
   "rich-text#dealsub4": {
     "props": {
-      "text": "Subtitle for the deal",
+      "text": "Descontos de até 50%",
       "blockClass": "dealsub"
     }
   }
