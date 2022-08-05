@@ -95,6 +95,32 @@ text-align: left;
   margin: 1rem 0;
 }
 
+.skuSelectorInternalBox {
+  background-color: #E40DCF;
+}
+
+.skuSelectorInternalBox :hover {
+  background-color: #E591DC;
+  border-color: #0E0F0F;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-radius: 0.25rem;
+}
+
+.skuSelectorItemTextValue{
+  color: #FFFFFF;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.skuSelectorItemTextValue :hover{
+  background-color: transparent !important;
+}
+
+.frameAround {
+  border-color: #0E0F0F !important;
+}
+
 .searchBarContainer {
   height: 48px;
   width: 585px;
@@ -167,3 +193,9 @@ text-align: left;
   font-size: 18px;
   margin: 16px;
 }
+
+@media only screen and (max-width: 1024px){
+  .searchBarContainer{
+    padding: 0 !important;
+  }
+  }

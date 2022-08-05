@@ -125,3 +125,8 @@
 .flexRow--productSpecificationGroupName{
   background-color: #ffffff !important;
 }
+
+.flexRowContent--sub-header-mobile{
+  background-color: #EDD1DD;
+  justify-content: center;
+}
