@@ -115,7 +115,7 @@
   },
 
   "flex-layout.row#home-component":{
-    "children":["home-component"],
+    "children":["compre-junto-component-home"],
     "props":{
       "fullWidth": true
     }
