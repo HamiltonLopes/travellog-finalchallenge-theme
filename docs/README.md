@@ -1,6 +1,7 @@
-#  **Final Challenge VtexIo**
 
-Este Repositório hospeda os seguintes items:+ 
+### **<h1 align="center">Final Challenge VtexIo</h1>**
+
+## Este Repositório hospeda os seguintes itens:
 
   * [Loja Vtex](https://github.com/HamiltonLopes/travellog-finalchallenge-theme): Usa da estratégia de compre junto para aumentar o ticket
     médio da loja, na home se encontra o componente com as maiores vendas da loja sendo oferecidas ao cliente, e na página do produto
