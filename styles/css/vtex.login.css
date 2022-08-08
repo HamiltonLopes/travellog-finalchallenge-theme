@@ -46,6 +46,8 @@
         border: 2px solid #0E0F0F;
         border-radius: 5px;
         margin-top: 0;
+        margin-left: 50px;
+        max-width: 70%;
     }
   }
 
