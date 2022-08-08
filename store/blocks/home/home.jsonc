@@ -113,17 +113,17 @@
     }
   },
 
-  "flex-layout.row#home-component":{
-    "children":["compre-junto-component-home"],
-    "props":{
-      "fullWidth": true
-    }
-  },
-
   "newsletter": {
     "props": {
       "label":"Receba notícias e ofertas especiais",
       "blockClass": "newsletter"
+    }
+  },
+
+  "flex-layout.row#home-component":{
+    "children":["compre-junto-component-home"],
+    "props":{
+      "fullWidth": true
     }
   }
 }
