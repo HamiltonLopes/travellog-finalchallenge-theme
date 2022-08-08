@@ -1,8 +1,8 @@
 #  **Final Challenge VtexIo**
 
-Este Repositório hospeda os seguintes items 
+Este Repositório hospeda os seguintes items:+ 
 
-  * [Loja Vtex](https://github.com/HamiltonLopes/vtex-finalchallenge-theme): Usa da estratégia de compre junto para aumentar o ticket
+  * [Loja Vtex](https://github.com/HamiltonLopes/travellog-finalchallenge-theme): Usa da estratégia de compre junto para aumentar o ticket
     médio da loja, na home se encontra o componente com as maiores vendas da loja sendo oferecidas ao cliente, e na página do produto
     se encontra o componente que mostra ao cliente as melhores combinações para aquele produto.
   * [Api Combinations](https://github.com/HamiltonLopes/combinationsAPI): API Hospedada na aws com Ec2, Route53 e com dominio
@@ -42,6 +42,13 @@ Este Repositório hospeda os seguintes items
   
   O fluxograma foi desenvolvido para auxiliar durante todo o projeto e para organizar a separação de tarefas.
 
+## Figma
+  A loja foi criada e estilizada no Figma como modelo a ser seguido durante a implementação: 
+  
+  ![Figma 1](https://user-images.githubusercontent.com/9729963/183324147-21b37570-4882-42cc-8d9c-308b8e2f1b47.jpg)
+  ![figma 2](https://user-images.githubusercontent.com/9729963/183324154-13ecf51c-1fd6-4f91-b9e8-ad732d5d5061.jpg)
+  
+  O figma da loja pode ser acessado através deste [link](https://www.figma.com/file/yKrmY8Eh190jfYZmeWX2z0/HC---TravellogFinalChallengeStore?node-id=0%3A1).
   
 ## Vtex-Store
 
@@ -58,42 +65,46 @@ Este Repositório hospeda os seguintes items
 * Execute `vtex link`
 * Log in to your store yourdomain.vtex.com
 
-
-### Screenshots 
-  ![imgstore](https://user-images.githubusercontent.com/9729963/180127132-e46ec500-2792-451a-b2c6-465d42258674.gif)
-  
-  ![travellog1](https://user-images.githubusercontent.com/9729963/180127291-7ea815ed-e532-43f6-8917-4118a55773b6.png)
-  
-  ![travellog2](https://user-images.githubusercontent.com/9729963/180127547-3de7d05f-be27-4863-ba67-7a450451059d.png)
-  
-  ![travellog3](https://user-images.githubusercontent.com/9729963/180127666-b6431a5f-f4d3-4264-bb36-79a7a141631a.png)
-  
 ###  Principais Componentes
   ```"travellog.compre-junto-component-home": "0.x",```
   
   ```"travellog.compre-junto-component": "0.x",```
   
   ```"travellog.admin-combinations": "0.x"```
-
-## Admin  - Combinations  
-  O Lojista poderá ver e entender as combinações que estão aparecendo em sua loja no mesmo local onde configura outras informações:
-  ![combinacoes-admin](https://user-images.githubusercontent.com/9729963/183322887-313a1240-5765-4dbf-80b5-789ed346016f.jpg)
-
-## Rotas importantes
+  
+### Rotas importantes
   * `https://hccombinationsapi.tk/combinations-api/v1/store-top-combinations` - Acessa as principais combinações da loja
   * `https://hccombinationsapi.tk/combinations-api/v1/combinations-by-id/:productId` - Acessa pontuação do usuário por id
 
-## Documentação-Swagger
 
+### Screenshots 
+  ![travellogstore1](https://user-images.githubusercontent.com/9729963/183325168-c4587aac-0470-494e-b1d6-d1f4a4bee8af.jpg)
+    
+  ![homegif1](https://user-images.githubusercontent.com/9729963/183325203-44e9e801-2102-4284-b005-3a36ae5f1e9a.gif)
+
+  ![travellogstore2](https://user-images.githubusercontent.com/9729963/183325217-3662f6bd-228b-4259-8dcc-7acdcc70d505.jpg)  
+
+  ![homegif2](https://user-images.githubusercontent.com/9729963/183325248-976364c7-635e-4a65-9ddb-451a1cbfd24a.gif)
+
+  ![productimg1](https://user-images.githubusercontent.com/9729963/183325373-4e13ac98-5352-4ba5-b596-c77311f29ea7.jpg)
+
+  ![productgif1](https://user-images.githubusercontent.com/9729963/183325273-aed50732-ae9c-4104-94ca-419dd733a80f.gif)
+
+## Detalhes do Projeto
+### Documentação-Swagger
   Combinations API:
-  
-  ![rewardsapi](https://user-images.githubusercontent.com/9729963/180130510-0223a161-4899-49ad-af65-cc90127bcb3e.jpg)
-  
+  ![swagger](https://user-images.githubusercontent.com/9729963/183323556-31e849c9-51ec-4c72-8724-5315ded95baf.jpg)
 
   Antes de acessar a documentação online certifique-se de que as instruções de **Como rodar o projeto** foram executadas.
-## Consultas por GraphQL
+
+### Consultas por GraphQL
   Foi utilizado GraphQL para consultas internas no catalogo Vtex para ter maior segurança e performance:
   ![graphql query](https://user-images.githubusercontent.com/9729963/183323332-fccc91dc-da20-4647-87e8-2bb983dbb349.jpg)
+
+### Admin  - Combinations  
+  O Lojista poderá ver e entender as combinações que estão aparecendo em sua loja no mesmo local onde configura outras informações:
+  ![combinacoes-admin](https://user-images.githubusercontent.com/9729963/183322887-313a1240-5765-4dbf-80b5-789ed346016f.jpg)
+    
 
 ## 🚀 Melhorias
 As seguintes melhorias poderiam ser feitas para aprimoramento do projeto
@@ -106,7 +117,7 @@ Principais Pontos de Melhoria:
 
 ## Tecnologias utilizadas
 
-#### Principais tecnologias utilizadas no código
+### Principais tecnologias utilizadas no código
 
 💻 [Node.js](https://nodejs.org/)
 
@@ -120,7 +131,7 @@ Principais Pontos de Melhoria:
 
 💻 [GraphQL](https://graphql.org/)
 
-#### Vtex Techs|Apis
+### Vtex Techs|Apis
 
 🛠 [VtexIO](https://vtex.com/pt-br/blog/vtex-book/vtexbook-vtex-io/)
 
