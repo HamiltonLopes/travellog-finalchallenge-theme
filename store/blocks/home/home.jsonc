@@ -22,7 +22,7 @@
 
   "responsive-layout.mobile": {
     "children":[
-      "list-context.image-list#demo",
+      "list-context.image-list#mobile",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
@@ -48,6 +48,27 @@
       ]
     }
   },
+    
+   "list-context.image-list#mobile": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": "450",
+      "preload": true,
+      "images": [
+        {
+          "image": "https://images2.imgbox.com/54/49/xR9MSFVX_o.jpg",
+          "mobileImage": "https://images2.imgbox.com/dd/c8/CMse1qoV_o.png",
+          "maxWidth": "360"
+        },
+        {
+          "image": "https://images2.imgbox.com/32/91/L3OsLBiW_o.jpg",
+          "mobileImage": "https://images2.imgbox.com/66/22/DKc0TIbp_o.png",
+          "maxWidth": "360"
+        }
+      ]
+    }
+  },
+    
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
