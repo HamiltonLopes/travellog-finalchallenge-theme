@@ -1,5 +1,5 @@
 
-### **<h1 align="center">Final Challenge VtexIo</h1>**
+### **<h1 align="center">Final Challenge VtexIO</h1>**
 
 ## Este Repositório hospeda os seguintes itens:
 
