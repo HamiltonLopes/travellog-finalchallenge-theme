@@ -10,12 +10,12 @@
     "children":[
       "list-context.image-list#demo",
       "flex-layout.row#deals",
-      "compre-junto-component-home",
       "__fold__",
       "rich-text#top-brands",
       "slider-layout#top-brands",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
+      "flex-layout.row#home-component",
       "newsletter"
     ]
   },
@@ -26,6 +26,7 @@
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
+      "flex-layout.row#home-component",
       "newsletter"
     ]
   },
