@@ -96,7 +96,11 @@
   Combinations API:
   ![swagger](https://user-images.githubusercontent.com/9729963/183323556-31e849c9-51ec-4c72-8724-5315ded95baf.jpg)
 
+
+
   Antes de acessar a documentação online certifique-se de que as instruções de **Como rodar o projeto** foram executadas.
+
+  A documentação da API pode ser acessada através deste [link](https://hccombinationsapi.tk/combinations-api/v1/docs).
 
 ### Consultas por GraphQL
   Foi utilizado GraphQL para consultas internas no catalogo Vtex para ter maior segurança e performance:
